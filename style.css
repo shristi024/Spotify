@@ -13,11 +13,15 @@ body{
     color: white;
 }
 
-
 .navbar{
+    background-color: black;
     display: flex;
     justify-content: space-between;
-    padding: 1rem 2rem;
+    padding: 4px 2rem;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .navbar ul{
@@ -32,12 +36,24 @@ body{
     width: 40px;
 }
 
+.home-search{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 1rem 1rem;
+}
+
 .nav-search{
     background-color: #2a2a2a;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 6px 20rem;
+    padding: 6px 2rem;
     border-radius: 40px;
+    gap: 60px;
+    height: 60px;
+    width: 800px;
+    white-space: nowrap;
 }
 
 .nav-search img{
@@ -50,4 +66,66 @@ body{
    font-weight: 400;
    font-style: normal;
    color: #f6f6f6;
+   white-space: nowrap;
+}
+
+.search-left{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.library{
+    display: flex;
+    background-color: #121212;
+    height: 2000px;
+    width: 354px;
+    border-radius: 10px;
+}
+
+.lib{
+    height: 59.2px;
+    width: 322px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    padding: 32px 35.2px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lib p{
+    padding: 4px 0px;
+
+}
+
+.create{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f1f1f;
+    height: 35.2px;
+    width: 99.56px;
+    padding: 8px 16px;
+    border-radius: 40px;
+    gap: 2px;
+}
+
+.create img{
+    height: 25px;
+    width: 25px;
+}
+
+.options{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.span{
+    height: 20px;
+    width: 71.63px;
+    padding: 4px 12px;
 }
