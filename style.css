@@ -136,7 +136,6 @@ body{
     height: 40px;
     width: 350px;
     padding: 0px 8px 8px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -152,4 +151,85 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 2px 16px 0px;
+}
+
+.lib-songs{
+    height: 60px;
+    width: 250px;
+    margin-left: 20px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.lib-songs img{
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+}
+
+
+.lib-songs p{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.home{
+    display: flex;
+    gap: 10px;
+}
+
+.songs{
+    background-color: #121212;
+    height: auto;
+    width: 600px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.so{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #2a2a2a;
+    height: 30px;
+    width: 74px;
+    border-radius: 40px;
+    padding: 4px 12px;
+}
+
+.song-options{
+    display: flex;
+    height: 64px;
+    width: 600px;
+}
+
+.playlist{
+    height: 60px;
+    width: 250px;
+    margin-left: 20px;
+    background-color: #2a2a2a;
+    display: flex;
+    border-radius: 5px;
+}
+
+.playlist img{
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+}
+
+.playlist p{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Music{
+    display: flex;
+    gap: 30px;
 }
