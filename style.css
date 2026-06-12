@@ -78,18 +78,23 @@ body{
 .library-options{
     background-color: #121212;
     height: auto;
-    width: 354px;
+    width: 450px;
     border-radius: 10px;
+}
+
+.lib-options{
+    display: flex;
+    flex-direction: column;
 }
 
 .lib{
     height: 59.2px;
-    width: 322px;
+    width: 450px;
     display: flex;
     justify-content: space-between;
     gap: 10px;
     align-items: center;
-    padding: 32px 35.2px;
+    padding: 40px 35.2px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -133,11 +138,12 @@ body{
 }
 
 .library{
-    height: 40px;
-    width: 350px;
+    height: auto;
+    width: 450px;
     padding: 0px 8px 8px;
-    justify-content: space-between;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .search-lib img{
@@ -183,7 +189,7 @@ body{
 
 .songs{
     background-color: #121212;
-    height: auto;
+    height: 250px;
     width: 600px;
     border-radius: 10px;
     gap: 20px;
@@ -203,6 +209,7 @@ body{
     display: flex;
     height: 64px;
     width: 600px;
+    padding: 6px 0px;
 }
 
 .playlist{
@@ -231,5 +238,32 @@ body{
 
 .Music{
     display: flex;
+    flex-direction: column;
     gap: 30px;
+    padding: 12px 0px;
+}
+
+.first{
+    display: flex;
+}
+
+.second{
+    display: flex;
+}
+
+.headphone img{
+    height: 380px;
+    width: 400px;
+}
+
+.headphone{
+    height: 380px;
+    width: 400px;
+}
+
+.song-player{
+    height: auto;
+    width: 440px;
+    background-color:#121212;
+    border-radius: 10px;
 }
