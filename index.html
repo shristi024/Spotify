@@ -46,22 +46,22 @@
               <div class="search-lib">
                   <img src="search-2.png">
               </div>
-              <div class="lib-songs">
+              <div class="lib-songs" onclick="openPlaylist('Enhypen')">
                 <img src="Enhypen.jfif"><p>Enhypen</p>
               </div>
-              <div class="lib-songs">
+              <div class="lib-songs" onclick="openPlaylist('kpop')">
                 <img src="Kpop.jfif"><p>kpop</p>
               </div>
-              <div class="lib-songs">
+              <div class="lib-songs" onclick="openPlaylist('English')">
                 <img src="English.jfif"><p>English</p>
             </div>
-            <div class="lib-songs">
+            <div class="lib-songs" onclick="openPlaylist('Punjabi')">
                 <img src="Punjabi.png"><p>Punjabi</p>
             </div>
-            <div class="lib-songs">
+            <div class="lib-songs" onclick="openPlaylist('Old bollywood')">
                 <img src="Old bollywood.jfif"><p>Old Bollywood</p>
             </div>
-            <div class="lib-songs">
+            <div class="lib-songs" onclick="openPlaylist('bollywood')">
                 <img src="Bollywood.jfif"><p>Bollywood</p>
             </div>
           </div>
@@ -74,18 +74,18 @@
         </div>
         <div class="Music">
             <div class="first">
-              <div class="playlist">
+              <div class="playlist" onclick="openPlaylist('Enhypen')">
                 <img src="Enhypen.jfif"><p>Enhypen</p>
               </div>
-              <div class="playlist">
+              <div class="playlist" onclick="openPlaylist('Kpop')">
                 <img src="Kpop.jfif"><p>kpop</p>
               </div>
             </div>
             <div class="second">
-              <div class="playlist">
+              <div class="playlist" onclick="openPlaylist('English')">
                 <img src="English.jfif"><p>English</p>
               </div>
-              <div class="playlist">
+              <div class="playlist" onclick="openPlaylist('Punjabi')">
                 <img src="Punjabi.png"><p>Punjabi</p>
               </div>
             </div>
@@ -95,8 +95,31 @@
         </div>
       </div>                                                 <!-- songs ka div--> 
       
-      <div class="song-player">
+           
+      <div class="playlist-page" id="playlist-page" style="display:none">
+        <button onclick="goBack()" class="back-btn">← Back</button>
+        <h2 id="playlist-title"></h2>
+        <div id="song-list"></div>  
       </div>
+
+
+      <div class="song-player">
+        <img src="Enhypen.jfif" alt="">
+        <div class="song-info">
+            <p>Playlist- Enhypen</p>
+            <p>Artist- Enhypen</p>
+            <p>Song- XO</p>
+        </div>
+        <div class="player">
+            <img src="Previous.png">
+            <img src="Player.png">
+            <img src="Next.png"> 
+        </div>
+        <div class="progressbar">
+        <input type="range" name="range" id="myprogressbar" min="0" max="100">
+        </div>
+
+      </div>                                                 <!--song-player ka div-->
 
     </div>
 

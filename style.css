@@ -267,3 +267,104 @@ body{
     background-color:#121212;
     border-radius: 10px;
 }
+
+.song-player img{
+    height: 400px;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.song-info {
+    background-color: #1f1f1f;
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.song-info p{
+    margin-left: 8px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.player{
+    background-color: black;
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.player img{
+    height: 40px;
+    width: 44px;
+    margin: 0px;
+    margin-top: 6px;
+    margin-left: 64px;
+}
+
+.progressbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#myprogressbar{
+    width: 398px;
+    margin-top: 15px;
+}
+
+
+.playlist-page {
+    background-color: #121212;
+    width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.back-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+.song-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.song-item:hover {
+    background-color: #2a2a2a;
+}
+
+.song-item img {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.song-item.playing {
+    background-color: #2a2a2a;
+    color: #1db954;  /* spotify green */
+}
